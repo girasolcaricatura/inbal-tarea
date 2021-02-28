@@ -1,0 +1,428 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+/**************************************************** first nav */
+header .first_nav {
+    background-color: #0b231e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+header .first_nav .gob_logo {
+    width: 100px;
+    margin: 13px 20px 5px 200px;
+
+}
+header .first_nav .first_nav_list {
+    display: flex;
+    list-style: none;
+    margin-right: 200px ;
+}
+header .first_nav .first_nav_list a{
+    color: #fff;
+    text-decoration: none;
+}
+header .first_nav .first_nav_list .search_icon {
+    width: 17px;
+}
+header .first_nav .first_nav_list li {
+    padding-right: 24px;
+}
+header .first_nav .first_nav_list li:hover {
+    background-color: #d3d3d3;
+    text-decoration: underline;
+}
+/**************************************************** second nav */
+header .second_nav {
+    background-color: #13322b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+header .second_nav .second_nav_list {
+    display: flex;
+    list-style: none;
+    margin-right: 230px;
+}
+header .second_nav .second_nav_list li a {
+    padding-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+header .second_nav .second_nav_list li a:hover {
+    text-decoration: underline;
+}
+header .second_nav img {
+    width: 130px;
+    margin: 10px 20px 5px 200px;
+}
+/***************************************************** third nav  */
+header .socialmediabar {
+    background-color: #ea0041;
+    color: #fff;
+    background-image: linear-gradient(to right, #ea0041, #b40034);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .socialmediabar .INBAL_logo {
+    width: 150px;
+    margin: 5px 20px 5px 200px;
+
+}
+header .socialmediabar .facebook_icon_mediabar, .twitter_icon_mediabar, .instagram_icon_mediabar, .youtube_icon_mediabar {
+    width: 40px;
+    margin: 5px;
+    border-radius: 500%;
+}
+header .socialmediabar .social_search_bar {
+    display: flex;
+    align-items: center;
+    border: solid 1px #fff;
+    border-radius: 15px;
+    padding: 5px;
+    margin-right: 250px;
+}
+header .socialmediabar .social_search_bar img {
+    width: 17px;
+    border: none;
+}
+header .socialmediabar .social_search_bar input {
+    border: none;
+    background: transparent;
+    color: #fff;
+    padding-left: 5px;
+}
+/***************************************************** hero */
+/******************************************************** slider  */
+#slider {
+    overflow: hidden;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+}
+/******************************************* art bar */
+.art_bar {
+    display: flex;
+}
+.art_bar a {
+    text-decoration: none;
+}
+.art_bar div {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: lighter;
+}
+.art_bar div:hover {
+    /* background: #fff; */
+    border: solid 2px #bd0036;
+}
+.art_bar .teatro {
+   /*  padding: 40px; */
+    width: 253px;
+    height: 71px;
+    background-color: #13826f;
+    text-align: center;
+    border: solid 1px #fff;
+    background-image: linear-gradient(to left, #13826f, #025b6d);
+
+}
+.art_bar .danza {
+    width: 253px;
+    height: 71px;
+    background-color: #a12de8;
+    text-align: center;
+    border: solid 1px #fff;
+    background-image: linear-gradient(to left, #a12de8, #6501e4);
+}
+.art_bar .musica {
+    width: 253px;
+    height: 71px;
+    background-color: #fe8252;
+    text-align: center;
+    border: solid 1px #fff;
+    background-image: linear-gradient(to left, #fe8252, #fa555c);
+}
+.art_bar .artesvisuales {
+    width: 253px;
+    height: 71px;
+    background-color: #ffa425;
+    text-align: center;
+    border: solid 1px #fff;
+    background-image: linear-gradient(to left, #ffa425, #ff8101);
+}
+.art_bar .literatura {
+    width: 253px;
+    height: 71px;
+    background-color: #1e6ad9;
+    text-align: center;
+    border: solid 1px #fff;
+    background-image: linear-gradient(to left, #1e6ad9, #003088);
+
+}
+.art_bar .opera {
+    width: 253px;
+    height: 71px;
+    background-color: #c7194c;
+    text-align: center;
+    border: solid 1px #fff;
+    background-image: linear-gradient(to left, #c7194c, #8e194c);
+}
+/*************************************************** convocatorias */
+.convocatorias {
+    padding-bottom: 70px;
+}
+.convocatorias h2, .convocatorias_text {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+.convocatorias h2 {
+    font-size: 3.4rem;
+    font-weight: 100;
+    padding-top: 100px;
+}
+.convocatorias p {
+    padding-top: 60px;
+    font-size: 1.7rem;
+    font-weight: lighter;
+}
+.primera_convocatoria {
+    display: flex;
+}
+.container_convocatorias {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 300px;
+}
+.container_convocatorias a {
+    text-decoration: none;
+}
+.primera_convocatoria .left_primera {
+    color: #fff;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    height: 50px;
+    width: 90px;
+    background-color: #f30043;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to left, #f30043, #b60034);
+    font-family: 'Oswald', sans-serif;
+
+}
+.left_primera span {
+    padding-left: 15px;
+    font-size: 2rem;
+}
+.primera_convocatoria .right_primera {    
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    margin-left: 15px;
+    text-align: center;
+    height: 50px;
+    width: 770px;
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+}
+.right_primera span {
+    padding-left: 10px;
+    font-size: 1.5rem;
+    color: #5f5f5f;
+}
+.segunda_convocatoria {
+    display: flex;
+    padding-top: 40px;
+}
+.segunda_convocatoria .left_segunda {
+    color: #fff;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    height: 50px;
+    width: 90px;
+    background-color: #f30043;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to left, #f30043, #b60034);
+    font-family: 'Oswald', sans-serif;
+}
+.left_segunda span {
+    padding-left: 15px;
+    font-size: 2rem;
+}
+.segunda_convocatoria .right_segunda {
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    margin-left: 15px;
+    text-align: center;
+    height: 50px;
+    width: 770px;
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+}
+.right_segunda span {
+    padding-left: 10px;
+    font-size: 1.5rem;
+    color: #5f5f5f;
+}
+.tercera_convocatoria {
+    display: flex;
+    padding-top: 40px;
+}
+.tercera_convocatoria .left_tercera {
+    color: #fff;
+    border-radius: 10px 0 0 10px;
+    text-align: center;
+    height: 50px;
+    width: 90px;
+    background-color: #f30043;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to left, #f30043, #b60034);
+    font-family: 'Oswald', sans-serif;
+}
+.left_tercera span {
+    padding-left: 15px;
+    font-size: 2rem;
+}
+.tercera_convocatoria .right_tercera {
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    margin-left: 15px;
+    text-align: center;
+    height: 50px;
+    width: 770px;
+    background-color: #d3d3d3;
+    display: flex;
+    align-items: center;
+}
+.right_tercera span {
+    padding-left: 10px;
+    font-size: 1.5rem;
+    color: #5f5f5f;
+}
+/************************************************ footer */
+.footer_top {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 304px 138px;
+    column-gap: 20px;
+    padding-top: 40px;
+    justify-content: center;
+    background-color: #eaeaea;
+    color: #000041;
+}
+.footer_top .left_footer_box h5 {
+    font-size: 2rem;
+}
+.footer_top .left_footer_box ul {
+    list-style: none;
+    font-size: 1.3rem;
+    margin-top: 20px
+}
+.footer_top .middle_footer_box h5 {
+    font-size: 2rem;
+}
+.footer_top .middle_footer_box p {
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+.footer_top .middle_footer_box ul {
+    list-style: none;
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+.footer_top .middle_footer_box ul a {
+    text-decoration: none;
+    color: #000041;
+}
+.footer_top .right_footer_box h5 {
+    font-size: 2rem;
+}
+.footer_top .right_footer_box p {
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+.footer_top .down_left_footer_box h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.footer_top .down_left_footer_box .suscribe_button_container {
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 3px;
+}
+.footer_top .down_left_footer_box .suscribe_button_container:hover {
+    border: solid 1px #00aced;
+}
+
+.down_left_footer_box .suscribe_button_container input {
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 15px;
+}
+.down_left_footer_box .suscribe_button_container img {
+    padding-left: 215px;
+    margin-top: 5px;
+}
+.down_left_footer_box .suscribe_button_container img:hover {
+    cursor: pointer;
+}
+.down_right_footer_box h3 {
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+.footer_down .footer_down_gob_logo {
+    width: 126px;
+    height: 39px;
+    margin: 15px 0 4px 290px;
+}

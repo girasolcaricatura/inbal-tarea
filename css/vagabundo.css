@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+/**************************************************** first nav */
+header .first_nav {
+    background-color: #0b231e;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+header .first_nav .gob_logo {
+    width: 100px;
+    margin: 13px 20px 5px 200px;
+
+}
+header .first_nav .first_nav_list {
+    display: flex;
+    list-style: none;
+    margin-right: 200px ;
+}
+header .first_nav .first_nav_list a{
+    color: #fff;
+    text-decoration: none;
+}
+header .first_nav .first_nav_list .search_icon {
+    width: 17px;
+}
+header .first_nav .first_nav_list li {
+    padding-right: 24px;
+}
+header .first_nav .first_nav_list li:hover {
+    background-color: #d3d3d3;
+    text-decoration: underline;
+}
+/**************************************************** second nav */
+header .second_nav {
+    background-color: #13322b;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+header .second_nav .second_nav_list {
+    display: flex;
+    list-style: none;
+    margin-right: 230px;
+}
+header .second_nav .second_nav_list li a {
+    padding-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+header .second_nav .second_nav_list li a:hover {
+    text-decoration: underline;
+}
+header .second_nav img {
+    width: 130px;
+    margin: 10px 20px 5px 200px;
+}
+/***************************************************** third nav  */
+header .socialmediabar {
+    background-color: #ea0041;
+    color: #fff;
+    background-image: linear-gradient(to right, #ea0041, #b40034);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .socialmediabar .INBAL_logo {
+    width: 150px;
+    margin: 5px 20px 5px 200px;
+
+}
+header .socialmediabar .facebook_icon_mediabar, .twitter_icon_mediabar, .instagram_icon_mediabar, .youtube_icon_mediabar {
+    width: 40px;
+    margin: 5px;
+    border-radius: 500%;
+}
+header .socialmediabar .social_search_bar {
+    display: flex;
+    align-items: center;
+    border: solid 1px #fff;
+    border-radius: 15px;
+    padding: 5px;
+    margin-right: 250px;
+}
+header .socialmediabar .social_search_bar img {
+    width: 17px;
+    border: none;
+}
+header .socialmediabar .social_search_bar input {
+    border: none;
+    background: transparent;
+    color: #fff;
+    padding-left: 5px;
+}
+/***************************************************** content */
+.large_image img {
+    width: 100vw;
+}
+.title {
+    margin-top: 40px;
+    text-align: center;
+}
+.title h2 {
+    font-family: 'Oswald';
+    color: #3b3a3a;
+    font-size: 4rem;
+}
+.title  h3 {
+    font-family: 'Oswald';
+    color: #3b3a3a;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+.title p {
+    font-family: 'Oswald';
+    color: #b9354c;
+    font-size: 2rem;
+}
+.description {
+    display: grid;
+    grid-template-columns: 350px 600px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.description .list ul {
+    list-style: none;
+    font-size: 1.6rem;
+}
+.description .list ul li {
+    padding-top: 10px;
+    font-family:  'Oswald';
+}
+.description .des_text p {
+    font-size: 1.7rem;
+    font-weight: lighter;
+    color: #666666;
+}
+/************************************************ footer */
+.footer_top {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 304px 138px;
+    column-gap: 20px;
+    padding-top: 40px;
+    justify-content: center;
+    background-color: #eaeaea;
+    color: #000041;
+}
+.footer_top .left_footer_box h5 {
+    font-size: 2rem;
+}
+.footer_top .left_footer_box ul {
+    list-style: none;
+    font-size: 1.3rem;
+    margin-top: 20px
+}
+.footer_top .middle_footer_box h5 {
+    font-size: 2rem;
+}
+.footer_top .middle_footer_box p {
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+.footer_top .middle_footer_box ul {
+    list-style: none;
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+.footer_top .middle_footer_box ul a {
+    text-decoration: none;
+    color: #000041;
+}
+.footer_top .right_footer_box h5 {
+    font-size: 2rem;
+}
+.footer_top .right_footer_box p {
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+.footer_top .down_left_footer_box h5{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.footer_top .down_left_footer_box .suscribe_button_container {
+    margin-top: 20px;
+    width: 250px;
+    height: 40px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 3px;
+}
+.footer_top .down_left_footer_box .suscribe_button_container:hover {
+    border: solid 1px #00aced;
+}
+
+.down_left_footer_box .suscribe_button_container input {
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 15px;
+}
+.down_left_footer_box .suscribe_button_container img {
+    padding-left: 215px;
+    margin-top: 5px;
+}
+.down_left_footer_box .suscribe_button_container img:hover {
+    cursor: pointer;
+}
+.down_right_footer_box h3 {
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+.footer_down .footer_down_gob_logo {
+    width: 126px;
+    height: 39px;
+    margin: 15px 0 4px 290px;
+}
